@@ -55,8 +55,6 @@ def createprompt(lyrics):
     return chat_response
 
 def createimage(prompt, name, message):
-    secret = "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"
-    secret = secret
     openai.api_key=secret
     openai.Model.list()
 
