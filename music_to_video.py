@@ -11,7 +11,7 @@ from nltk import pos_tag
 from moviepy.editor import *
 
 
-secret = #Enter your API Key
+secret = ""#Enter your API Key in the spaces
 message = input('Enter the full youtube URL that you would like to create a video of here: ')
 lyrics = input('Enter the number of lyrics that you would like to create into a picture - suggestion ~15 for rap ~8 for rock/pop ')
 lyrics = int(lyrics)
